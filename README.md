@@ -1,2 +1,2 @@
-# typing-tester
+# Typing-Tester
 it is a typing tester
