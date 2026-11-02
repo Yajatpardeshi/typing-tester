@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Tester</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="tag">PRACTICE • IMPROVE • REPEAT</p>
+      <h1>Typing Speed Tester</h1>
+      <p class="subtitle">Test how fast and accurately you can type.</p>
+    </header>
+
+    <section class="stats">
+      <div class="stat"><span>Time Left</span><strong id="time">60</strong><small>seconds</small></div>
+      <div class="stat"><span>WPM</span><strong id="wpm">0</strong><small>words/min</small></div>
+      <div class="stat"><span>Accuracy</span><strong id="accuracy">100%</strong><small>correct typing</small></div>
+      <div class="stat"><span>Mistakes</span><strong id="mistakes">0</strong><small>wrong letters</small></div>
+    </section>
+
+    <section class="test-card">
+      <div class="card-heading">
+        <h2>Type the paragraph below</h2>
+        <span class="status" id="status">Ready</span>
+      </div>
+      <div id="quote" class="quote" aria-label="Text to type"></div>
+      <textarea id="input" placeholder="Click here and start typing..." spellcheck="false" autocomplete="off"></textarea>
+      <div class="bottom-row">
+        <p id="message">The timer starts when you press your first key.</p>
+        <button id="restart">Restart Test</button>
+      </div>
+    </section>
+    <footer>Made with HTML, CSS and JavaScript</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
